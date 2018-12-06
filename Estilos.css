@@ -1,0 +1,101 @@
+#Info{
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 300px;
+    margin-left: 30%;
+}
+i::before{
+    padding-right: 10px;
+}
+i{
+    padding-right: 10px;
+}
+#info2{
+    display: flex;
+    justify-content: flex-start ;
+}
+#photo{
+    border-right: solid 2px black;
+}
+#DATS{
+    margin-top: 17px;
+}
+#Empleo{
+    padding-right: 40px;
+    color: darkcyan;
+}
+#deseo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+main{  
+    margin-top: 20px; 
+}
+h1{
+    text-align: center;
+}
+#montecas{
+    width: 422px;
+    height: 276px;
+    margin-left: 525px;
+}
+#montecastelo{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    color: darkcyan;
+    border-bottom: solid 2px black;
+    text-align: center;
+}
+#educ{
+    padding-top: 10px;   
+}
+.fecha{
+   color: darkcyan;
+   padding-right: 100px;
+    margin-left: 25px;
+}
+#Toural{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Tou{
+    width: 400px;
+    height: 128px;
+    margin-left: 540px;
+}
+.fecha2{
+    color: darkcyan;
+   padding-right: 125px;
+    margin-left: 25px;
+}
+#idiomas-1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#rees{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+#esp{
+    width: 450px;
+    height: 250px;
+}
+#gal{
+    width: 450px;
+    height: 250px;
+}
