@@ -1,3 +1,6 @@
+body{
+    width: 96%
+}
 #Info{
     text-align: center;
 }
@@ -35,9 +38,6 @@ i{
 main{  
     margin-top: 20px; 
 }
-h1{
-    text-align: center;
-}
 #montecas{
     width: 422px;
     height: 276px;
@@ -49,6 +49,9 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+    header h1{
+        padding-top: 0;
+    }
 h1{
     color: darkcyan;
     border-bottom: solid 2px black;
@@ -151,7 +154,7 @@ padding-right: 100px;
     height:46px;
 }
 #certify p:last-child{
-    margin-left:180px;
+    margin-left:80px;
 }
 #curso{
     display: flex;
@@ -166,12 +169,96 @@ padding-right: 100px;
     #css-html{
         margin-left: 100px; 
     }
+    #vbnet{
+        margin-left: 45px;
+    }
 }
-@media (max-width:1135px){
-    
+@media (max-width:1035px){
+    #gal{
+        margin-bottom: 10px;
+    }
+    #esp{
+        margin-left: 47px;
+    }
+    #eng{
+        margin-bottom: 10px;
+    }
+    #fra{
+        margin-left: 47px;
+    }
+    #css-html{
+        margin-left: 80px;
+        margin-right: 120px;
+    }
+    #vbnet{
+        margin-left: -30px;
+    }
+    #certify{
+        margin-top: 0;
+    }
+    p{
+        font-size: 16px;
+    }
+    #montecas{
+        margin-left: 420px;    
+    }
+    #Tou{
+        margin-left: 420px;
+    }
+    #javasql{
+        margin-left: 420px;
+    }
 }
-@media (max-width:992px){
-    
+@media (max-width:874px){
+    p{
+        font-size: 16px;
+        margin-left: 5px !important;
+    } 
+    #montecas{
+       margin-left: 25%;  
+    }
+    #Tou{
+        margin-left: 25%;       
+    }
+    #javasql{
+        margin-left: 25%;      
+    }
+    #rees{
+        text-align: center!important ;
+    }
+}
+@media (max-width:860px){
+    #montecastelo{
+        display: block;
+        text-align: center;
+    }
+    p.fecha{
+        padding-right: 0 !important;
+    }
+    #Toural{
+        display: block;
+        text-align: center;
+    }
+    p.fecha2{
+        padding-right: 0 !important;
+    }
+    #certify{
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    p.fecha2{
+        padding-right: 0 !important;
+    }
+    #Tou{
+        margin-left: 27%;
+    }
+    .compe1{
+        padding-right: 0;
+        width: 800px;
+        margin-right: 0;
+    }
+
 }
 @media (max-width:768px){
     
