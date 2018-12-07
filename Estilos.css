@@ -119,31 +119,11 @@ h1{
     display: flex;
     justify-content: space-around;
 }
-.progress{
-    height: 1rem;
-    overflow: hidden;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: .25rem;
-    width: 450px;
-    margin-left:100px;
-    margin-top: 10px;
-    margin-right: 110px;
-}
 .compe1{
 padding-right: 100px;
 }
-.progress-bar{
-    width: 50%;
-    background-color: green !important;
-}
-#barra{
-    flex-wrap: nowrap;
-    margin-left: 40px;
-}
-#clase2{
-    width: 25%;
-}
+
+
 #css-html{
     width: 450px;
     height: 300px;
@@ -160,15 +140,6 @@ padding-right: 100px;
 #progra{
     display: flex;
     justify-content: space-around
-}
-#cuatro{
-    margin-left: 65px;
-}
-#clase3{
-    width: 50%;
-}
-#clase4{
-    width: 75%;
 }
 #certify{
     margin-top: 40px;   
@@ -191,8 +162,13 @@ padding-right: 100px;
     height: 332px;
     margin-left: 540px;
 }
-@media (max-width:1200px){
-
+@media (max-width:1220px){
+    #css-html{
+        margin-left: 100px; 
+    }
+}
+@media (max-width:1135px){
+    
 }
 @media (max-width:992px){
     
