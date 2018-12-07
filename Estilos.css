@@ -53,6 +53,7 @@ h1{
     color: darkcyan;
     border-bottom: solid 2px black;
     text-align: center;
+    padding-top: 20px;
 }
 #educ{
     padding-top: 10px;   
@@ -90,12 +91,82 @@ h1{
     font-size: 30px;
     font-weight: bold;
     color: darkcyan;
+    padding-top: 20px;
+    margin-left: 50px;
 }
 #esp{
     width: 450px;
     height: 250px;
+    margin-left: 0px;
 }
 #gal{
     width: 450px;
     height: 250px;
+    margin-left: 50px;
+}
+#fra{
+    width: 450px;
+    height: 250px;
+    margin-left: 0px;
+}
+#eng{
+    width: 450px;
+    height: 250px;
+    margin-left: 50px;
+}
+#Otras{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.progress{
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    width: 450px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-right: 110px;
+}
+.compe1{
+padding-right: 100px;
+}
+.progress-bar{
+    width: 50%;
+    background-color: green !important;
+}
+#barra{
+    flex-wrap: nowrap;
+    margin-left: 40px;
+}
+#clase2{
+    width: 25%;
+}
+#css-html{
+    width: 450px;
+    height: 300px;
+    margin-left: 150px;
+}
+#vbnet{
+    width: 500px;
+    height: 300px;
+    margin-left: 130px; 
+}
+#compe2{
+    margin-top: 20px;
+}
+#progra{
+    display: flex;
+    justify-content: space-around
+}
+#cuatro{
+    margin-left: 65px;
+}
+#clase3{
+    width: 50%;
+}
+#clase4{
+    width: 75%;
 }
