@@ -170,3 +170,36 @@ padding-right: 100px;
 #clase4{
     width: 75%;
 }
+#certify{
+    margin-top: 40px;   
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-left: 15px;
+    height:46px;
+}
+#certify p:last-child{
+    margin-left:180px;
+}
+#curso{
+    display: flex;
+    justify-content: space-around;
+}
+#javasql{
+    width: 400px;
+    height: 332px;
+    margin-left: 540px;
+}
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    
+}
+@media (max-width:768px){
+    
+}
+@media (max-width:576px){
+    
+}
