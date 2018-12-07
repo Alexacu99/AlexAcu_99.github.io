@@ -257,12 +257,71 @@ padding-right: 100px;
         padding-right: 0;
         width: 800px;
         margin-right: 0;
+    }   
+    #css-html{
+        margin-right: 0;
+        margin-left: 30px;
+    }
+    #vbnet{
+        margin-right: 0;
+        margin-left: 30px;
     }
 
 }
-@media (max-width:768px){
-      
+@media (max-width:740px){
+    #arr{
+        display: block;
+    }
+    #photo{
+        border-right: none;
+        border-bottom: solid 2px black;
+    }
+    #photo img{
+        margin-left: 230px;
+    }
+    #Info{
+        margin-bottom: 0;
+    }
+    #DATS{
+        text-align: center;
+    }
+    #info2{
+        text-align: center;
+        display: block;
+    }
+    #esp{
+        margin-left: 0;
+    }
+    #fra{
+        margin-left: 0;
+    }
+    #gal{
+        margin-left: 0;
+    }
+    #eng{
+        margin-left: 0;
+    }
 }
-@media (max-width:576px){
+@media (max-width:600px){
     
+}
+@media (max-width:568px){
+    #photo img{
+        margin-left: 150px;
+    }
+    .display-3{
+        font-size: 3.5rem;
+    }
+    #esp{
+        margin-left: -30px;
+    }
+    #fra{
+        margin-left: -30px;
+    }
+    #gal{
+        margin-left: -30px;
+    }
+    #eng{
+        margin-left: -30px;
+    }
 }
