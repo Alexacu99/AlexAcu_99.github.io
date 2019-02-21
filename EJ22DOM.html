@@ -36,6 +36,9 @@
     <button id="P" onclick="SP()">P<br>(Muelle)</button>
     <button id="O" onclick="SO()">O<br>(Matar)</button>
     <button id="I" onclick="SI()">I<br>(Tripas)</button>
+    <button id="U" onclick="SU()">U<br>(Quemara Cosas)</button>
+    <button id="Y" onclick="SY()">Y<br>(Personaje de dibujos)</button>
+    <button id="T" onclick="ST()">T<br>(Barón)</button>
     <script>
         function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
@@ -53,7 +56,7 @@
     window.onkeydown = function() {
                 switch (event.keyCode) {
                     case 65:
-                    document.getElementById("Sa").reset()
+                    document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
@@ -63,12 +66,15 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Aa").play()
                     animateCss("#A","tada")           
                     break;
                     case 83:
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
@@ -78,13 +84,16 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Sa").play()
                     animateCss("#S","tada")
                     break; 
                     case 68:
                     document.getElementById("Sa").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
@@ -93,14 +102,17 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Da").play()
                     animateCss("#D","tada")
                     break;   
                     case 70:
                     document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
@@ -108,7 +120,10 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Fa").play()
                     animateCss("#F","tada")
                     break;
@@ -116,14 +131,17 @@
                     document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ga").play()
                     animateCss("#G","tada")
                     break;
@@ -132,13 +150,16 @@
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ha").play()
                     animateCss("#H","tada")
                     break;
@@ -148,12 +169,15 @@
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ja").play()
                     animateCss("#J","tada")
                     break;
@@ -164,11 +188,14 @@
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ka").play()
                     animateCss("#K","tada")
                     break;
@@ -180,10 +207,13 @@
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("La").play()
                     animateCss("#L","tada")
                     break;
@@ -196,9 +226,12 @@
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Pa").play()
                     animateCss("#P","tada")
                     break;
@@ -212,8 +245,11 @@
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Oa").play()
                     animateCss("#O","tada")
                     break;
@@ -229,11 +265,82 @@
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
                     document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ia").play()
                     animateCss("#I","tada")
                     break;
+                    case 85:
+                    document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ua").play()
+                    animateCss("#U","tada")
+                    break;
+                    case 89:
+                    document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ya").play()
+                    animateCss("#Y","tada")
+                    break;
+                    case 84:
+                    document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ta").play()
+                    animateCss("#T","tada")
+                    break;
                 }
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             function SA(){
                 document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
@@ -245,12 +352,15 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Aa").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Aa").play()
                     animateCss("#A","tada")
             }
             function SS(){
-                document.getElementById("Aa").pause()
+                document.getElementById("Ta").pause()
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
@@ -260,13 +370,16 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Sa").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Sa").play()
                     animateCss("#S","tada")
             }
             function SD(){
                 document.getElementById("Sa").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
@@ -275,14 +388,17 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Da").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Da").play()
                     animateCss("#D","tada")
             }
             function SF(){
                 document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
@@ -290,23 +406,29 @@
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Fa").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Fa").play()
                     animateCss("#F","tada")
             }
             function SG(){
                 document.getElementById("Sa").pause()
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Ga").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ga").play()
                     animateCss("#G","tada")
             }
             function SH(){
@@ -314,14 +436,17 @@
                     document.getElementById("Da").pause()
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Ha").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ha").play()
                     animateCss("#H","tada")
             }
             function SJ(){
@@ -330,13 +455,16 @@
                     document.getElementById("Fa").pause()
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Ja").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ja").play()
                     animateCss("#J","tada")
             }
             function SK(){
@@ -346,12 +474,15 @@
                     document.getElementById("Ga").pause()
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Ka").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ka").play()
                     animateCss("#K","tada")
             }
             function SL(){
@@ -362,11 +493,14 @@
                     document.getElementById("Ha").pause()
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("La").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("La").play()
                     animateCss("#L","tada")
             }
             function SP(){
@@ -378,10 +512,13 @@
                     document.getElementById("Ja").pause()
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
-                    document.getElementById("Aa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
-                document.getElementById("Pa").play()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Pa").play()
                     animateCss("#P","tada")
             }
             function SO(){
@@ -394,8 +531,11 @@
                     document.getElementById("Ka").pause()
                     document.getElementById("La").pause()
                     document.getElementById("Pa").pause()
+                    document.getElementById("Ta").pause()
                     document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
                     document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Oa").play()
                     animateCss("#O","tada")
             }
@@ -411,8 +551,65 @@
                     document.getElementById("Pa").pause()
                     document.getElementById("Oa").pause()
                     document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ya").pause()
                     document.getElementById("Ia").play()
                     animateCss("#I","tada")
+            }
+            function SU(){
+                document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ua").play()
+                    animateCss("#U","tada")
+            }
+            function SY(){
+                document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ta").pause()
+                    document.getElementById("Ya").play()
+                    animateCss("#Y","tada")
+            }
+            function ST(){
+                document.getElementById("Sa").pause()
+                    document.getElementById("Da").pause()
+                    document.getElementById("Fa").pause()
+                    document.getElementById("Ga").pause()
+                    document.getElementById("Ha").pause()
+                    document.getElementById("Ja").pause()
+                    document.getElementById("Ka").pause()
+                    document.getElementById("La").pause()
+                    document.getElementById("Pa").pause()
+                    document.getElementById("Oa").pause()
+                    document.getElementById("Aa").pause()
+                    document.getElementById("Ua").pause()
+                    document.getElementById("Ia").pause()
+                    document.getElementById("Ya").pause()
+                    document.getElementById("Ta").play()
+                    animateCss("#T","tada")
             }
 
     </script>
@@ -429,5 +626,8 @@
     <audio id="Pa" src="homer-simpsons-cojo-otro-muelle-lo-tiro.mp3"></audio>
     <audio id="Oa" src="voy-a-matar-a-moe.mp3"></audio>
     <audio id="Ia" src="meto-cuchillo-saco-tripas-espanol-espana.mp3"></audio>
+    <audio id="Ua" src="ralph-me-dijo-que-quemara-cosas-espanol-castellano.mp3"></audio>
+    <audio id="Ya" src="yo-me-llamo-ralf.mp3"></audio>
+    <audio id="Ta" src="rex-banner-vs-el-baron-de-la-birra.mp3"></audio>
 </body>
 </html>
