@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>Document</title>
+    <style>
+    button{
+        background-color: black;
+        color: white;
+        padding: 2.5em;
+        border: 2px solid red;
+    }
+    #A{
+       animation-duration: 4s 
+    }
+    #S{
+        animation-duration: 16s  
+    }
+    #D{
+        animation-duration: 7s 
+    }
+    #F{
+        animation-duration: 14s 
+    }
+    #G{
+        animation-duration: 5s 
+    }
+    #H{
+        animation-duration: 5s
+    }
+    #J{
+        animation-duration: 4s
+    }
+    #K{
+        animation-duration: 25s
+    }
+    #L{
+        animation-duration: 18s
+    }
+    </style>
+</head>
+<body>
+    <button id="A">A<br>(Sub)</button>
+    <button id="S">S<br>(Con la de hierro que tiene)</button>
+    <button id="D">D<br>(Holita)</button>
+    <button id="F">F<br>(Ladrón)</button>
+    <button id="G">G<br>(Gili!!!!!)</button>
+    <button id="H">H<br>(Bocadillo)</button>
+    <button id="J">J<br>(Nucelar)</button>
+    <button id="K">K<br>(Coche Electrico)</button>
+    <button id="L">L<br>(Votos a favor)</button>
+    <script>
+        function animateCss(element, animationName, callback) {
+    const node = document.querySelector(element)
+    node.classList.add('animated', animationName)
+
+    function handleAnimationEnd() {
+        node.classList.remove('animated', animationName)
+        node.removeEventListener('animationend', handleAnimationEnd)
+
+        if (typeof callback === 'function') callback()
+    }
+
+    node.addEventListener('animationend', handleAnimationEnd)
+}
+    window.onkeydown = function() {
+                switch (event.keyCode) {
+                    case 65:
+                    document.getElementById("Aa").play()
+                    animateCss("#A","tada")           
+                    break;
+                    case 83:
+                    document.getElementById("Sa").play()
+                    animateCss("#S","tada")
+                    break; 
+                    case 68:
+                    document.getElementById("Da").play()
+                    animateCss("#D","tada")
+                    break;   
+                    case 70:
+                    document.getElementById("Fa").play()
+                    animateCss("#F","tada")
+                    break;
+                    case 71:
+                    document.getElementById("Ga").play()
+                    animateCss("#G","tada")
+                    break;
+                    case 72:
+                    document.getElementById("Ha").play()
+                    animateCss("#H","tada")
+                    break;
+                    case 74:
+                    document.getElementById("Ja").play()
+                    animateCss("#J","tada")
+                    break;
+                    case 75:
+                    document.getElementById("Ka").play()
+                    animateCss("#K","tada")
+                    break;
+                    case 76:
+                    document.getElementById("La").play()
+                    animateCss("#L","tada")
+                    break;
+                }
+            }
+    </script>
+    <a href="index.html">Principal</a>
+    <audio id="Aa" src="alerta-por-subnormal-south-park.mp3"></audio>
+    <audio id="Sa" src="con-la-de-hierro-que-tiene.mp3"></audio>
+    <audio id="Da" src="hola-holita-hola.mp3"></audio>
+    <audio id="Fa" src="homer-simpson-es-un-ladron.mp3"></audio>
+    <audio id="Ga" src="homer-simpson-gili.mp3"></audio>
+    <audio id="Ha" src="homer-simpsons-quiero-mi-bocadillo.mp3"></audio>
+    <audio id="Ja" src="nucelar-la-palabra-es-nucelar.mp3"></audio>
+    <audio id="Ka" src="soy-un-coche-electrico-los-simpson.mp3"></audio>
+    <audio id="La" src="votos-a-favor-2.mp3"></audio>
+</body>
+</html>
