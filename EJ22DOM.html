@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <title>Document</title>
     <style>
+    .parallax { 
+        background-image: url("simpsons.jpg");
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     button{
         background-color: black;
         color: white;
@@ -42,7 +50,7 @@
     }
     </style>
 </head>
-<body>
+<body class="parallax">
     <button id="A" onclick="SA()">A<br>(Sub)</button>
     <button id="S" onclick="SS()">S<br>(Con la de hierro que tiene)</button>
     <button id="D" onclick="SD()">D<br>(Holita)</button>
