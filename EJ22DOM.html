@@ -43,15 +43,15 @@
     </style>
 </head>
 <body>
-    <button id="A">A<br>(Sub)</button>
-    <button id="S">S<br>(Con la de hierro que tiene)</button>
-    <button id="D">D<br>(Holita)</button>
-    <button id="F">F<br>(Ladrón)</button>
-    <button id="G">G<br>(Gili!!!!!)</button>
-    <button id="H">H<br>(Bocadillo)</button>
-    <button id="J">J<br>(Nucelar)</button>
-    <button id="K">K<br>(Coche Electrico)</button>
-    <button id="L">L<br>(Votos a favor)</button>
+    <button id="A" onclick="SA()">A<br>(Sub)</button>
+    <button id="S" onclick="SS()">S<br>(Con la de hierro que tiene)</button>
+    <button id="D" onclick="SD()">D<br>(Holita)</button>
+    <button id="F" onclick="SF()">F<br>(Ladrón)</button>
+    <button id="G" onclick="SG()">G<br>(Gili!!!!!)</button>
+    <button id="H" onclick="SH()">H<br>(Bocadillo)</button>
+    <button id="J" onclick="SJ()">J<br>(Nucelar)</button>
+    <button id="K" onclick="SK()">K<br>(Coche Electrico)</button>
+    <button id="L" onclick="SL()">L<br>(Votos a favor)</button>
     <script>
         function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
@@ -105,6 +105,42 @@
                     animateCss("#L","tada")
                     break;
                 }
+            }
+            function SA(){
+                document.getElementById("Aa").play()
+                    animateCss("#A","tada")
+            }
+            function SS(){
+                document.getElementById("Sa").play()
+                    animateCss("#S","tada")
+            }
+            function SD(){
+                document.getElementById("Da").play()
+                    animateCss("#D","tada")
+            }
+            function SF(){
+                document.getElementById("Fa").play()
+                    animateCss("#F","tada")
+            }
+            function SG(){
+                document.getElementById("Ga").play()
+                    animateCss("#G","tada")
+            }
+            function SH(){
+                document.getElementById("Ha").play()
+                    animateCss("#H","tada")
+            }
+            function SJ(){
+                document.getElementById("Ja").play()
+                    animateCss("#J","tada")
+            }
+            function SK(){
+                document.getElementById("Ka").play()
+                    animateCss("#K","tada")
+            }
+            function SL(){
+                document.getElementById("La").play()
+                    animateCss("#L","tada")
             }
     </script>
     <a href="index.html">Principal</a>
