@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <title>Document</title>
@@ -60,6 +60,9 @@
     <button id="J" onclick="SJ()">J<br>(Nucelar)</button>
     <button id="K" onclick="SK()">K<br>(Coche Electrico)</button>
     <button id="L" onclick="SL()">L<br>(Votos a favor)</button>
+    <button id="P" onclick="SP()">P<br>(Muelle)</button>
+    <button id="O" onclick="SO()">O<br>(Matar)</button>
+    <button id="I" onclick="SI()">I<br>(Tripas)</button>
     <script>
         function animateCss(element, animationName, callback) {
     const node = document.querySelector(element)
@@ -112,6 +115,18 @@
                     document.getElementById("La").play()
                     animateCss("#L","tada")
                     break;
+                    case 80:
+                    document.getElementById("Pa").play()
+                    animateCss("#P","tada")
+                    break;
+                    case 79:
+                    document.getElementById("Oa").play()
+                    animateCss("#O","tada")
+                    break;
+                    case 73:
+                    document.getElementById("Ia").play()
+                    animateCss("#I","tada")
+                    break;
                 }
             }
             function SA(){
@@ -150,6 +165,19 @@
                 document.getElementById("La").play()
                     animateCss("#L","tada")
             }
+            function SP(){
+                document.getElementById("Pa").play()
+                    animateCss("#P","tada")
+            }
+            function SO(){
+                document.getElementById("Oa").play()
+                    animateCss("#O","tada")
+            }
+            function SI(){
+                document.getElementById("Ia").play()
+                    animateCss("#I","tada")
+            }
+
     </script>
     <a href="index.html">Principal</a>
     <audio id="Aa" src="alerta-por-subnormal-south-park.mp3"></audio>
@@ -161,5 +189,8 @@
     <audio id="Ja" src="nucelar-la-palabra-es-nucelar.mp3"></audio>
     <audio id="Ka" src="soy-un-coche-electrico-los-simpson.mp3"></audio>
     <audio id="La" src="votos-a-favor-2.mp3"></audio>
+    <audio id="Pa" src="homer-simpsons-cojo-otro-muelle-lo-tiro.mp3"></audio>
+    <audio id="Oa" src="voy-a-matar-a-moe.mp3"></audio>
+    <audio id="Ia" src="meto-cuchillo-saco-tripas-espanol-espana.mp3"></audio>
 </body>
 </html>
